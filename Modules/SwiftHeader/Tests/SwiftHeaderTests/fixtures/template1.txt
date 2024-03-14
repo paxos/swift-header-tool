@@ -1,0 +1,5 @@
+
+$figlet(Hello)
+
+$filename
+Made by me in $date
