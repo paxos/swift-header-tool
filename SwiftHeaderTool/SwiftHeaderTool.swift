@@ -12,7 +12,7 @@ import ArgumentParser
 struct SwiftHeaderTool: ParsableCommand {
     static var configuration = CommandConfiguration(
         abstract: "A utility for fixing your file headers.",
-        subcommands: [Strip.self, AddHeader.self]
+        subcommands: [Strip.self, AddHeader.self, Replace.self]
     )
 }
 
