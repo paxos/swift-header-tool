@@ -1,2 +1,8 @@
-/SwiftHeaderTool.xcodeproj/xcuserdata/pd.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-/Modules/SwiftHeader/.swiftpm/xcode/xcuserdata/pd.xcuserdatad
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

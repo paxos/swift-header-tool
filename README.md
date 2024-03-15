@@ -1,5 +1,17 @@
 # SwiftHeaderTool
 
+## Install
+```
+swift package experimental-install
+```
+
+## Uninstall
+```
+swift package experimental-uninstall SwiftHeaderTool
+```
+
+## Usage
+
 Early version, do not use in production.
 
 ```

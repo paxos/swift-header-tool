@@ -1,0 +1,15 @@
+{
+  "originHash" : "cb1c1c0eea43026e35b8de0dfe9f0ddb0ccfbd6e02d9c163aef227355805c23a",
+  "pins" : [
+    {
+      "identity" : "swiftfiglet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dfreniche/SwiftFiglet.git",
+      "state" : {
+        "revision" : "1ac347c06611750ca8ef2a599cc5c25f9af75f1b",
+        "version" : "0.2.1"
+      }
+    }
+  ],
+  "version" : 3
+}
