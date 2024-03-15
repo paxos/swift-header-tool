@@ -61,6 +61,8 @@ public struct Strip {
 
                 if isBlankLine && enteredHeaderArea {
                     leftHeaderArea = true
+                    // Make sure to skip that blank line
+                    continue
                 }
 
                 if !isComment {
@@ -76,6 +78,4 @@ public struct Strip {
             return nil
         }
     }
-
-
 }
