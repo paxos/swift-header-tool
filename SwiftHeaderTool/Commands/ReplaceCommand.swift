@@ -1,9 +1,14 @@
-//
-//  Replace.swift
-//  SwiftHeaderTool
-//
-//  Created by Patrick Dinger on 15.03.2024.
-//
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// ReplaceCommand.swift
+// Made by paxos in Mar 15, 2024
 
 import ArgumentParser
 import Foundation

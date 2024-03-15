@@ -1,9 +1,14 @@
-//
-//  File.swift
-//
-//
-//  Created by Patrick Dinger on 14.03.2024.
-//
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// Add.swift
+// Made by paxos in Mar 15, 2024
 
 import Foundation
 import SwiftFigletKit
@@ -25,6 +30,7 @@ public enum Add {
             let header = replaceTemplate(string: template, filename: filename)
             let output = header + "\n\n" + fileContent
             do {
+                print("Added header to \(filename)")
                 try output.write(toFile: filename, atomically: true, encoding: .utf8)
             } catch {
                 print("Could not write \(filename)")

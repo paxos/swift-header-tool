@@ -1,3 +1,15 @@
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// CommentStripperTests.swift
+// Made by paxos in Mar 15, 2024
+
 @testable import SwiftHeader
 import XCTest
 

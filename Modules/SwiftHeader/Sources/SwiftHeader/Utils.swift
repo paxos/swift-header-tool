@@ -1,9 +1,14 @@
-//
-//  File.swift
-//
-//
-//  Created by Patrick Dinger on 14.03.2024.
-//
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// Utils.swift
+// Made by paxos in Mar 15, 2024
 
 import Foundation
 import SwiftFigletKit
@@ -34,9 +39,13 @@ func iterateSwiftFiles(in folderPath: String, callback: (String) -> Void) {
         // Iterate over Swift files and remove comment headers
         for file in swiftFiles {
             let filePath = "\(folderPath)/\(file)"
-            
+
             if let lastPathComponent = URL(string: file)?.lastPathComponent.lowercased() {
-                guard lastPathComponent != "package.swift" else { return }
+                guard
+                    lastPathComponent != "package.swift" && lastPathComponent != ".git"
+                else {
+                    continue
+                }
             }
 
             callback(filePath)
@@ -51,8 +60,6 @@ func iterateSwiftFiles(in folderPath: String, callback: (String) -> Void) {
                 iterateSwiftFiles(in: subfolderPath, callback: callback)
             }
         }
-
-        print("Comment headers removed from all Swift files in the folder: \(folderPath)")
     } catch {
         print("Error: \(error)")
     }

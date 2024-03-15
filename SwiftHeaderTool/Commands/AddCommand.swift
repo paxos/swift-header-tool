@@ -1,9 +1,14 @@
-//
-//  AddHeader.swift
-//  SwiftHeaderTool
-//
-//  Created by Patrick Dinger on 14.03.2024.
-//
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// AddCommand.swift
+// Made by paxos in Mar 15, 2024
 
 import ArgumentParser
 import Foundation

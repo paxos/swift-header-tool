@@ -1,9 +1,14 @@
-//
-//  main.swift
-//  SwiftHeaderTool
-//
-//  Created by Patrick Dinger on 14.03.2024.
-//
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// SwiftHeaderTool.swift
+// Made by paxos in Mar 15, 2024
 
 import Foundation
 import ArgumentParser

@@ -1,12 +1,17 @@
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// Fixtures.swift
+// Made by paxos in Mar 15, 2024
+
 struct Fixtures {
   static let input1 = """
-//
-//  GraphQLClientError.swift
-//
-//
-//  Created by Patrick Dinger on 3/25/22.
-//
-
 import MyPackage
 
 struct SomeCode {

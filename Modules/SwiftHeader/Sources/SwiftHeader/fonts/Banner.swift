@@ -1,3 +1,15 @@
+// 
+//  #####   #     #  ####### 
+// #     #  #     #     #    
+// #        #     #     #    
+//  #####   #######     #    
+//       #  #     #     #    
+// #     #  #     #     #    
+//  #####   #     #     #    
+//                           
+// Banner.swift
+// Made by paxos in Mar 15, 2024
+
 public let BannerFont = """
 flf2a$ 8 7 54 0 12 0 64 185
 banner.flf version 2 by Ryan Youck (youck@cs.uregina.ca)
