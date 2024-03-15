@@ -1,15 +1,16 @@
 //
-//  AddHeader.swift
+//  Replace.swift
 //  SwiftHeaderTool
 //
-//  Created by Patrick Dinger on 14.03.2024.
+//  Created by Patrick Dinger on 15.03.2024.
 //
 
 import ArgumentParser
 import Foundation
 import SwiftHeader
 
-struct AddHeader: ParsableCommand {
+struct ReplaceCommand: ParsableCommand {
+    static var configuration = CommandConfiguration(commandName: "replace", abstract: "Runs strip and add in one command")
     
     @Option(help: "Specify path to your project")
     public var path: String
@@ -18,6 +19,6 @@ struct AddHeader: ParsableCommand {
     public var templatePath: String
     
     public func run() throws {
-        AddHeaderRunner.run(path: path, templatePath: templatePath)
+        Replace.run(path: path, templatePath: templatePath)
     }
 }

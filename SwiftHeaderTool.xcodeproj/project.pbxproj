@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F5B2C652BA4AAE700D4915E /* Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B2C642BA4AAE700D4915E /* Replace.swift */; };
-		6F60AF442BA387FB00E5732F /* AddHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60AF432BA387FB00E5732F /* AddHeader.swift */; };
+		6F5B2C652BA4AAE700D4915E /* ReplaceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B2C642BA4AAE700D4915E /* ReplaceCommand.swift */; };
+		6F60AF442BA387FB00E5732F /* AddCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60AF432BA387FB00E5732F /* AddCommand.swift */; };
 		6F74E1AB2BA3745D003D054F /* SwiftHeaderTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74E1AA2BA3745D003D054F /* SwiftHeaderTool.swift */; };
 		6F74E1B32BA37478003D054F /* SwiftHeader in Frameworks */ = {isa = PBXBuildFile; productRef = 6F74E1B22BA37478003D054F /* SwiftHeader */; };
 		6F74E1B72BA37595003D054F /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6F74E1B62BA37595003D054F /* ArgumentParser */; };
-		6F74E1C22BA376F2003D054F /* Strip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74E1C12BA376F2003D054F /* Strip.swift */; };
+		6F74E1C22BA376F2003D054F /* StripCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F74E1C12BA376F2003D054F /* StripCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6F5B2C642BA4AAE700D4915E /* Replace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replace.swift; sourceTree = "<group>"; };
-		6F60AF432BA387FB00E5732F /* AddHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeader.swift; sourceTree = "<group>"; };
+		6F5B2C642BA4AAE700D4915E /* ReplaceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceCommand.swift; sourceTree = "<group>"; };
+		6F60AF432BA387FB00E5732F /* AddCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommand.swift; sourceTree = "<group>"; };
 		6F74E1A72BA3745D003D054F /* SwiftHeaderTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftHeaderTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F74E1AA2BA3745D003D054F /* SwiftHeaderTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeaderTool.swift; sourceTree = "<group>"; };
 		6F74E1B42BA374A0003D054F /* SwiftHeader */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwiftHeader; path = Modules/SwiftHeader; sourceTree = "<group>"; };
-		6F74E1C12BA376F2003D054F /* Strip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strip.swift; sourceTree = "<group>"; };
+		6F74E1C12BA376F2003D054F /* StripCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripCommand.swift; sourceTree = "<group>"; };
 		6FC355F72BA3B7CB004B044B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +80,9 @@
 		6F74E1C32BA376F8003D054F /* Commands */ = {
 			isa = PBXGroup;
 			children = (
-				6F74E1C12BA376F2003D054F /* Strip.swift */,
-				6F60AF432BA387FB00E5732F /* AddHeader.swift */,
-				6F5B2C642BA4AAE700D4915E /* Replace.swift */,
+				6F74E1C12BA376F2003D054F /* StripCommand.swift */,
+				6F60AF432BA387FB00E5732F /* AddCommand.swift */,
+				6F5B2C642BA4AAE700D4915E /* ReplaceCommand.swift */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5B2C652BA4AAE700D4915E /* Replace.swift in Sources */,
-				6F74E1C22BA376F2003D054F /* Strip.swift in Sources */,
-				6F60AF442BA387FB00E5732F /* AddHeader.swift in Sources */,
+				6F5B2C652BA4AAE700D4915E /* ReplaceCommand.swift in Sources */,
+				6F74E1C22BA376F2003D054F /* StripCommand.swift in Sources */,
+				6F60AF442BA387FB00E5732F /* AddCommand.swift in Sources */,
 				6F74E1AB2BA3745D003D054F /* SwiftHeaderTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

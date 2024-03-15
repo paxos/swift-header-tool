@@ -9,12 +9,12 @@ final class AddHeaderRunnerTests: XCTestCase {
         let fixtureOutputURL = Bundle.module.path(forResource: "fixtures/template1_output", ofType: "txt")!
         let output = try String(contentsOfFile: fixtureOutputURL, encoding: .utf8)
 
-        XCTAssertEqual(output, AddHeaderRunner.replaceTemplate(string: input, filename: "file.swift", date: Date(timeIntervalSince1970: 0)))
+        XCTAssertEqual(output, Add.replaceTemplate(string: input, filename: "file.swift", date: Date(timeIntervalSince1970: 0)))
     }
 
     func testFilenameReplacement() throws {
         XCTAssertEqual(
-            AddHeaderRunner.replaceFilename(line: "This is $filename in this project", filename: "file.swift"),
+            Add.replaceFilename(line: "This is $filename in this project", filename: "file.swift"),
             "This is file.swift in this project"
         )
     }
@@ -27,7 +27,7 @@ final class AddHeaderRunnerTests: XCTestCase {
         let output = try String(contentsOfFile: fixtureOutputURL, encoding: .utf8)
 
         XCTAssertEqual(
-            AddHeaderRunner.replaceFiglet(line: input),
+            Add.replaceFiglet(line: input),
             output
         )
     }

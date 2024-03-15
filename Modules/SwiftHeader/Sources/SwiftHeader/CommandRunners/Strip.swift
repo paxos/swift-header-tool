@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CommentStripper {
+public struct Strip {
     public init() {}
 
     public static func run(path: String) {

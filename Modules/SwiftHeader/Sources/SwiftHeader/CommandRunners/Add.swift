@@ -8,7 +8,7 @@
 import Foundation
 import SwiftFigletKit
 
-public enum AddHeaderRunner {
+public enum Add {
     public static func run(path: String, templatePath: String) {
         iterateSwiftFiles(in: path) { filename in
 

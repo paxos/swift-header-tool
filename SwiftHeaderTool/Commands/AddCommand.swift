@@ -1,22 +1,24 @@
 //
-//  Replace.swift
+//  AddHeader.swift
 //  SwiftHeaderTool
 //
-//  Created by Patrick Dinger on 15.03.2024.
+//  Created by Patrick Dinger on 14.03.2024.
 //
 
 import ArgumentParser
 import Foundation
 import SwiftHeader
 
-struct Replace: ParsableCommand {
+struct AddCommand: ParsableCommand {
+    static var configuration = CommandConfiguration(commandName: "add", abstract: "Adds a new file header based on template")
+
     @Option(help: "Specify path to your project")
     public var path: String
-    
+
     @Option(help: "Specify the template path to your project")
     public var templatePath: String
-    
+
     public func run() throws {
-        ReplaceRunner.run(path: path, templatePath: templatePath)
+        Add.run(path: path, templatePath: templatePath)
     }
 }

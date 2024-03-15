@@ -7,7 +7,11 @@ SwiftHeaderTool strip --path sourcedir
 ```
 
 ```
-SwiftHeaderTool add-header --path sourcedir --template-path template.txt
+SwiftHeaderTool add --path sourcedir --template-path template.txt
+```
+
+```
+SwiftHeaderTool replace --path sourcedir --template-path template.txt
 ```
 
 ### Example Template

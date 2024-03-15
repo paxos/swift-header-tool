@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct ReplaceRunner {
+public struct Replace {
     public static func run(path: String, templatePath: String) {
-        CommentStripper.run(path: path)
-        AddHeaderRunner.run(path: path, templatePath: templatePath)
+        Strip.run(path: path)
+        Add.run(path: path, templatePath: templatePath)
     }
 }

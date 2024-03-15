@@ -9,14 +9,13 @@ import ArgumentParser
 import Foundation
 import SwiftHeader
 
-struct Strip: ParsableCommand {
-    static var configuration
-        = CommandConfiguration(abstract: "Some help for you!")
+struct StripCommand: ParsableCommand {
+    static var configuration = CommandConfiguration(commandName: "strip", abstract: "Remove file header")
 
     @Option(help: "Specify path to your project")
     public var path: String
 
     public func run() throws {
-        CommentStripper.run(path: path)
+        Strip.run(path: path)
     }
 }
