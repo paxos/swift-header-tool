@@ -34,6 +34,10 @@ func iterateSwiftFiles(in folderPath: String, callback: (String) -> Void) {
         // Iterate over Swift files and remove comment headers
         for file in swiftFiles {
             let filePath = "\(folderPath)/\(file)"
+            
+            if let lastPathComponent = URL(string: file)?.lastPathComponent.lowercased() {
+                guard lastPathComponent != "package.swift" else { return }
+            }
 
             callback(filePath)
         }

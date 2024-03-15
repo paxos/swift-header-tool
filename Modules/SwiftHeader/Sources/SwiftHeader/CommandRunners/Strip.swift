@@ -6,9 +6,6 @@ public struct Strip {
 
     public static func run(path: String) {
         iterateSwiftFiles(in: path) { filename in
-            if let lastPathComponent = URL(string: filename)?.lastPathComponent.lowercased() {
-                guard lastPathComponent != "package.swift" else { return }
-            }
             applyToFile(from: filename)
         }
     }
