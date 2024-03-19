@@ -1,5 +1,7 @@
 # SwiftHeaderTool
 
+This tool can remove file headers from your Swift source files and add new headers based on a template.
+
 ## Install
 ```
 swift package experimental-install
