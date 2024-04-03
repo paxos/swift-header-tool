@@ -1,5 +1,4 @@
 {
-  "originHash" : "cb1c1c0eea43026e35b8de0dfe9f0ddb0ccfbd6e02d9c163aef227355805c23a",
   "pins" : [
     {
       "identity" : "swiftfiglet",
@@ -11,5 +10,5 @@
       }
     }
   ],
-  "version" : 3
+  "version" : 2
 }
