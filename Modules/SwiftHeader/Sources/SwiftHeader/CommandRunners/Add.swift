@@ -96,7 +96,7 @@ public enum Add {
                 // Replace $figlet(Template1) with something else, e.g., just 'Template1' for demonstration
 
 //                let fontURL = SwiftFigletKit.bundle
-                let b = BannerFont
+//                let b = BannerFont
                 let font = SFKFont.from(file: SFKFigletFile.from(raw: BannerFont)!)!
 
 //                let a = Bundle.module.url(forResource: "fonts/Banner", withExtension: "flf")!
